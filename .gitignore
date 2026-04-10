@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.csv
+*.fits
+*.7z
+*.zip
+
+# IDE
+.vs/
+*.vcxproj
+*.sln
+*.filters
+Debug/
+Release/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Notes
+历元问题.txt
