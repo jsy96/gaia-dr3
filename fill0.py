@@ -1,7 +1,7 @@
 import pandas as pd
 
-input_path = r'D:\a_star_catalog\gaia_dr3_final_uniform2.csv'
-output_path = r'D:\a_star_catalog\gaia_dr3_final_uniform3.csv'
+input_path = r'D:\a_star_catalog\gaia_dr3_merged.csv'
+output_path = r'D:\a_star_catalog\gaia_dr3_fill0.csv'
 
 # 读取
 df = pd.read_csv(input_path)

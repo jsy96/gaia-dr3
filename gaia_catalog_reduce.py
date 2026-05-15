@@ -6,7 +6,7 @@ import astropy.units as u
 
 # ---------------- 配置参数 ----------------
 input_path = r'D:\a_star_catalog\gaia_dr3_merged.csv'
-output_path = r'D:\a_star_catalog\gaia_dr3_final_uniform2.csv'
+output_path = r'D:\a_star_catalog\gaia_dr3_final_uniform6.csv'
 
 # NSIDE 决定了全天划分的格子数量。计算公式：像素总数 = 12 * (nside^2)
 # nside=32 -> 12,288 个像素 (每个像素约 3.3 平方度)
@@ -16,7 +16,7 @@ output_path = r'D:\a_star_catalog\gaia_dr3_final_uniform2.csv'
 # STARS_PER_PIXEL = 1  # 每个格子里保留几颗星（通常选 1 即可实现极佳的均匀度）
 # ---------------- 修改后的配置参数 ----------------
 # nside=128 -> 全天像素总数 = 12 * (128^2) = 196,608 个像素
-NSIDE = 128 
+NSIDE = 512 
 
 # 每个像素保留 1 颗星，理论最大值即为 196,608 颗
 STARS_PER_PIXEL = 1  
