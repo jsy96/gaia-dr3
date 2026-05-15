@@ -1,6 +1,6 @@
 import pandas as pd
 
-def split_by_mag(input_path, mag_limits=(13, 12, 11, 10)):
+def split_by_mag(input_path, mag_limits=(9,8)): #13, 12, 11, 10
     df = pd.read_csv(input_path)
     total = len(df)
     print(f"原始恒星数: {total}")
